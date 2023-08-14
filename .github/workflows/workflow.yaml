@@ -7,3 +7,5 @@ jobs:
     steps:
       - run: echo "Hello from provider"
         shell: bash
+
+      - uses: ./some-action/

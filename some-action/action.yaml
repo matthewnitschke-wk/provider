@@ -1,0 +1,7 @@
+name: some-action
+
+runs:
+  using: composite
+  steps:
+    - run: echo "hello from some-action"
+      shell: bash
