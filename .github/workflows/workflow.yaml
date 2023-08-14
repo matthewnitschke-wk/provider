@@ -1,0 +1,9 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  action:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello from provider"
+        shell: bash
