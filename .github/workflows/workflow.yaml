@@ -9,5 +9,8 @@ jobs:
         shell: bash
 
       - uses: actions/checkout@v3
+        with:
+          path: workflows
+          repository: matthewnitschke-wk/provider
 
-      - uses: ./some-action/
+      - uses: ./workflows/some-action/
