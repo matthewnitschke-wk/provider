@@ -3,5 +3,5 @@ name: some-action
 runs:
   using: composite
   steps:
-    - run: echo "hello from some-action"
+    - run: echo "hello from some-action 2"
       shell: bash
